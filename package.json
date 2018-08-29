@@ -1,0 +1,31 @@
+{
+  "name": "dfak-cli",
+  "version": "0.0.1",
+  "description": "Digital First Aid Kit Command Line Interface",
+  "bin": {
+    "dfak": "../../../lib/node_modules/docsmith/lib/docsmith.js",
+    "dfak-init": "../../../lib/node_modules/docsmith/lib/docsmith-init.js",
+    "dfak-new": "../../../lib/node_modules/docsmith/lib/docsmith-new.js",
+    "dfak-load": "../../../lib/node_modules/docsmith/lib/docsmith-load.js",
+    "dfak-save": "../../../lib/node_modules/docsmith/lib/docsmith-save.js",
+    "dfak-config": "../../../lib/node_modules/docsmith/lib/docsmith-config.js",
+    "dfak-link": "../../../lib/node_modules/docsmith/lib/docsmith-link.js",
+    "dfak-start": "../../../lib/node_modules/docsmith/lib/docsmith-start.js",
+    "dfak-build": "../../../lib/node_modules/docsmith/lib/docsmith-build.js",
+    "dfak-pkgpath": "./package.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentascode/dfak-cli.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/contentascode/dfak-cli/issues"
+  },
+  "homepage": "https://github.com/contentascode/dfak-cli#readme"
+}
