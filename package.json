@@ -1,7 +1,7 @@
 {
   "name": "dfak-cli",
   "version": "0.0.1",
-  "description": "Digital First Aid Kit Command Line Interface",
+  "description": "Digital First Aid Kit CLI",
   "bin": {
     "dfak": "../../../lib/node_modules/docsmith/lib/docsmith.js",
     "dfak-init": "../../../lib/node_modules/docsmith/lib/docsmith-init.js",
@@ -27,5 +27,6 @@
   "bugs": {
     "url": "https://github.com/contentascode/dfak-cli/issues"
   },
-  "homepage": "https://github.com/contentascode/dfak-cli#readme"
+  "homepage": "https://github.com/contentascode/dfak-cli#readme",
+  "dependencies": {}
 }
