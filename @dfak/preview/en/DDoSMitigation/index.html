@@ -1,0 +1,228 @@
+<!DOCTYPE html><!--if lt IE 7<html class="ie ie6" lang="en">--><!--if IE 7<html class="ie ie7" lang="en">--><!--if IE 8<html class="ie ie8" lang="en">--><!--if (gte IE 9)|!(IE)<!--><html lang="en"> <!--
+--><html><head><meta charset="utf8"><title>DDoS Mitigation &middot; Digital First Aid Kit</title><meta name="description" content=""><meta name="author" content=""><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><link rel="stylesheet" href="/dfak-cli/@dfak/preview/css/main.css"><script src="/dfak-cli/@dfak/preview/javascripts/anchor.min.js"></script><link rel="shortcut icon" href="/dfak-cli/@dfak/preview/images/favicon.ico"><link rel="apple-touch-icon" href="/dfak-cli/@dfak/preview/images/apple-touch-icon.png"><link rel="apple-touch-icon" sizes="72x72" href="/dfak-cli/@dfak/preview/images/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="114x114" href="/dfak-cli/@dfak/preview/images/apple-touch-icon-114x114.png"><link rel="alternate" type="application/rss+xml" title="RSS" href="/dfak-cli/@dfak/preview/feed.xml"></head><header class="site-header"><div class="wrapper"><a class="site-title" href="/dfak-cli/@dfak/preview/">Digital First Aid Kit</a><nav class="site-nav"><a class="menu-icon" href="#"><svg viewBox="0 0 18 15"><path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"></path><path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"></path><path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"></path></svg></a><div class="trigger"><a href="/dfak-cli/@dfak/preview/de/">[de]</a><!--<a href="{{site.baseurl}}/de/SichereKommunikation" alt="Secure Communication">Sichere Kommunikation</a>
+<a href="{{site.baseurl}}/de/Konto-Diebstahl" alt="Account Hijacking">Konto-Diebstahl</a>
+<a href="{{site.baseurl}}/de/Geratverloren" alt="Devices Seized">Gerät verloren</a>
+<a href="{{site.baseurl}}/de/Schadprogramme" alt="Malware">Schadprogramme</a>
+<a href="{{site.baseurl}}/de/DDoSEindammung/" alt="DDoS Mitigation">DDoS Eindämmung</a>
+<a href="{{site.baseurl}}/de/Glossar" alt="Glossary">Glossar</a>
+<a href="{{site.baseurl}}/de/Referenz" alt="Resources">Referenz</a>--><a href="/dfak-cli/@dfak/preview/en/">[en]</a><!--<a href="{{site.baseurl}}/en/SecureCommunication" alt="Secure Communication"> </a>
+<a href="{{site.baseurl}}/en/AccountHijacking" alt="Account Hijacking"> </a>
+<a href="{{site.baseurl}}/en/DevicesSeized" alt="Devices Seized"> </a>
+<a href="{{site.baseurl}}/en/Malware" alt="Malware"> </a>
+<a href="{{site.baseurl}}/en/DDoSMitigation" alt="DDoS Mitigation"> </a>
+<a href="{{site.baseurl}}/en/Glossary" alt="Glossary"> </a>
+<a href="{{site.baseurl}}/en/Resources" alt="Resources"> </a>--><a href="/dfak-cli/@dfak/preview/es/">[es]</a><!--<a href="{{site.baseurl}}/es/ComunicacionesSeguras" alt="Secure Communication">Comunicaciones Seguras</a>
+<a href="{{site.baseurl}}/es/HackeodeCuentas" alt="Account Hijacking">Hackeo de Cuentas</a>
+<a href="{{site.baseurl}}/es/DispositivosIncautados" alt="Devices Seized">Dispositivos Incautados</a>
+<a href="{{site.baseurl}}/es/Malware" alt="Malware">Malware</a>
+<a href="{{site.baseurl}}/es/MitigacionDDoS" alt="DDoS Mitigation">Mitigación DDoS</a>
+<a href="{{site.baseurl}}/es/Glosario" alt="Glossary">Glosario</a>
+<a href="{{site.baseurl}}/es/Referencias" alt="Resources">Referencias</a>--><a href="/dfak-cli/@dfak/preview/fr/">[fr]</a><!--<a href="{{site.baseurl}}/fr/" alt="Secure Communication"> </a>
+<a href="{{site.baseurl}}/fr/" alt="Account Hijacking"> </a>
+<a href="{{site.baseurl}}/fr/" alt="Devices Seized"> </a>
+<a href="{{site.baseurl}}/fr/" alt="Malware"> </a>
+<a href="{{site.baseurl}}/fr/" alt="DDoS Mitigation"> </a>
+<a href="{{site.baseurl}}/fr/" alt="Glossary"> </a>
+<a href="{{site.baseurl}}/fr/" alt="Resources"> </a>--><a href="/dfak-cli/@dfak/preview/ru/">[ru]</a><!--<a href="{{site.baseurl}}/ru/" alt="Secure Communication"> </a>
+<a href="{{site.baseurl}}/ru/" alt="Account Hijacking"> </a>
+<a href="{{site.baseurl}}/ru/" alt="Devices Seized"> </a>
+<a href="{{site.baseurl}}/ru/" alt="Malware"> </a>
+<a href="{{site.baseurl}}/ru/" alt="DDoS Mitigation"> </a>
+<a href="{{site.baseurl}}/ru/" alt="Glossary"> </a>
+<a href="{{site.baseurl}}/ru/" alt="Resources"> </a>--><a href="/dfak-cli/@dfak/preview/nl/">[nl]</a><!--<a href="{{site.baseurl}}/nl/" alt="Veilige communicatie"> </a>
+<a href="{{site.baseurl}}/nl/" alt="Antwoorden op DDoS aanvallen"> </a>--></div></nav></div></header><body><div class="page-content"><div class="wrapper"><nav><ul><li><a href="/dfak-cli/@dfak/preview/en/SecureCommunication/" alt="SecureCommunication">Secure Communication</a></li><li><a href="/dfak-cli/@dfak/preview/en/AccountHijacking/" alt="AccountHijacking">Account Hijacking</a></li><li><a href="/dfak-cli/@dfak/preview/en/DevicesSeized/" alt="DevicesSeized">Devices Seized</a></li><li><a href="/dfak-cli/@dfak/preview/en/Malware/" alt="Malware">Malware</a></li><li><a href="/dfak-cli/@dfak/preview/en/DDoSMitigation/" alt="DDoSMitigation">DDoS Mitigation</a></li><li><a href="/dfak-cli/@dfak/preview/en/Glossary/" alt="Glossary">Glossary</a></li><li><a href="/dfak-cli/@dfak/preview/en/Resources/" alt="Resources">Resources</a></li></ul></nav><div class="post"><header class="post-header"><h1 class="post-title">DDoS Mitigation</h1></header><article class="post-content"><h1 id="ddos-mitigation">DDoS Mitigation</h1>
+<p>A threat faced by many independent journalists, news sites and bloggers is having their voices muted because their website is down or defaced. In many cases, this may be an innocent and frustrating problem, but on occasion, it may be due to a 'denial of service' attack or a website takeover. This section of the Digital First Aid Kit will walk you through some basic steps to diagnose potential problems. If your site is under a denial of service attack, some immediate options for next steps are suggested.</p>
+<p>In general, it is important to know that there are many reasons why your website can be down. Most often this is due to programming errors or technical problems at the company that hosts the site. Sometimes, other things like legal challenges can cause a hoster to turn a site off as well. Finding the problem and possible solutions to your website's problem can be cumbersome if you do not have hosting expertise. Therefore, when possible, the best first step is to contact a trusted person who can help with your website (your webmaster, the people who helped you set up your site, your internal staff if you have them and the company that hosts your site, or if none of these are available, <a href="SecureCommunication.md#seeking-and-providing-remote-help">seek help from an organization you trust</a> ).</p>
+<p>It is good practice to <strong>contact your webmaster and the site host</strong> after investigating these common challenges below! The problem you face may not have been reported on their status page, may be a temporary problem, or the site host may not yet be aware of the problem. A good relationship with your service providers goes a long way - be clear and polite and share the results of your investigation using these questions to help them quickly troubleshoot the problem.</p>
+<h2 id="start-by-answering-some-simple-questions">Start by answering some simple questions:</h2>
+<h3 id="basic-information">Basic information</h3>
+<ul>
+<li>Who built your website? Are they available to help?</li>
+<li>Who is your web hosting provider? This is the company that provides the server where your website lives. If you do not know, you can <a href="http://www.whoishostingthis.com/">use a tool</a> to help.</li>
+<li>Do you have your account log in details for this hosting provider?</li>
+<li>Where did you purchase your domain name? In some cases this is also your website host, but it could also be another company.</li>
+<li>Do you have the log in details for the domain name service? If not, finding these is your first step to recovering your site</li>
+<li>Who else knows or may have access to these account details?</li>
+</ul>
+<h3 id="diagnostic-information">Diagnostic information</h3>
+<p>There can be different reasons why your website is down. This can range from network to policy, hosting, blocking, software, defacement and performance problems. The section below explains what each of these problems is and how to diagnose which problem you are facing.</p>
+<ul>
+<li><strong>Is your web host working, but your website is unavailable?</strong>
+<ol>
+<li>Check <a href="http://isitdownorjust.me">on this website</a>
+<ul>
+<li>Your site is up, but you can’t see it?
+<ul>
+<li>This is a <strong>network problem</strong>. Your own internet connection could be having problems or be blocking your access to your site.</li>
+<li>This could also indicate that your account has been disabled: <strong>Are you seeing a message from your web hosting provider?</strong>
+<ul>
+<li>You could have been taken offline for billing, legal, copyright or other reasons.</li>
+<li>This is a <strong>policy problem</strong>. First, make sure your billing information is up to date and that there is no outstanding balance on your hosting services or your domain name. If the message is due to a legal issue, <a href="https://www.eff.org/issues/bloggers/legal/liability/IP">the resources provided</a> by EFF, while focused on US copyright laws, are a good place to learn more.</li>
+</ul></li>
+</ul></li>
+<li><strong>Is your site not loading at all?</strong> Your hosting company may be having problems, in which case you may be facing a <strong>hosting problem</strong>.
+<ul>
+<li>Can you visit the website of your hosting company? Note that this is <em>not</em> the admin section of your own site, but that of the company or organization that hosts your site. Look or search for a 'status' blog (e.g. status.dreamhost.com); also search on twitter.com for other users discussing downtime at the host
+<ul>
+<li>a simple search like '(company name) down' can often reveal whether others are having the same problem.</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><strong>Can you visit other sites with similar content to your site?</strong>
+<ul>
+<li>Try visiting websites related to yours or covering similar issues. Also try using <a href="https://www.torproject.org/projects/gettor.html">Tor</a> or <a href="https://psiphon.ca/products.php">Psiphon</a> to access your site. If this helps, you have a <strong>blocking problem</strong> - you are still online for other parts of the world, but are being censored in your own country.</li>
+</ul></li>
+<li><strong>Are you seeing error messages?</strong>
+<ul>
+<li>This could be a <strong>software problem</strong>. You should reflect on any recent changes you or your team may have made and contact your webmaster.
+<ul>
+<li>Sending your webmaster a screenshot, the link of the page you are having problems with and any error messages you see will help them figure out what might be causing the problem.</li>
+<li>You might also copy the error messages into a search to see if they are easily fixed.</li>
+</ul></li>
+</ul></li>
+<li><strong>Are you seeing a website that is not yours? Are you receiving a warning from your browser about malware on your own site?</strong>
+<ul>
+<li>This could be a <strong>defacement problem</strong>. See below for next steps; you will need to work with your web hosting provider and review the Account Hijacking section.</li>
+</ul></li>
+<li><strong>Is your site loading intermittently or unusually slowly?</strong>
+<ul>
+<li>Your site may be overwhelmed by the number and speed of requests for pages it is receiving - this is a <strong>performance problem</strong>. This could be 'good' insofar as your site has become more popular and it simply needs some improvements to respond to more readers.
+<ul>
+<li>check your site analytics for a long-term pattern in growth.</li>
+<li>Contact your webmaster or hosting provider for guidance. Many popular blogging and CMS platforms (Joomla, Wordpress, Drupal and others) have plugins to help cache your website locally and integrate CDNs, which can dramatically improve site performance and resilience. Many of the solutions below can also help performance problems.</li>
+</ul></li>
+</ul></li>
+</ol></li>
+</ul>
+<h2 id="first-steps-to-mitigate-the-problem">First steps to mitigate the problem:</h2>
+<h3 id="when-you-are-suffering-from-a-denial-of-service-attack">When you are suffering from a Denial of Service attack</h3>
+<p>If the above diagnoses do not help (or you are experiencing a severe <strong>performance problem</strong>, your site may be the victim of a <strong>'denial of service' attack</strong>, where a malicious user (or users), try to view the website repeatedly and rapidly (using automated tools), and in doing so crowd out legitimate readers. Sometimes it’s one 'attacker' trying to do this to your site, which doesn’t usually cause much of a problem - unless you pay for bandwidth. More common is the 'Distributed' denial of Service (DDoS), where an attacker uses thousands of machines under his control to targets a site.</p>
+<ul>
+<li>Step 1: Contact a trusted person who can help with your website (your webmaster, the people who helped you set up your site, your internal staff if you have them and the company that hosts your site).</li>
+<li>Step 2: Work with the company you bought your domain from (like EasyDNS, <a href="http://www.networksolutions.com/support/how-to-manage-advanced-dns-records/">Network Solutions</a>, <a href="http://support.godaddy.com/help/article/680/managing-dns-for-your-domain-names">GoDaddy</a>) and change the 'Time to Live' or TTL to 1 hour. This can help you redirect your site much faster once it comes under attack (the default is 72 hours, or three days). This setting will often be found in 'advanced' properties for your domain, sometimes part of the SRV or Service records.</li>
+<li>Step 3: Move your site to a DDoS mitigation service <a href="https://github.com/OpenInternet/MyWebsiteIsDown/blob/master/MyWebsiteIsDown.md#mitigation-services">full list</a>. To start:
+<ul>
+<li><a href="https://deflect.ca/">Deflect.ca</a></li>
+<li><a href="https://projectshield.withgoogle.com/en/">Google's Project Shield</a></li>
+<li><a href="https://www.cloudflare.com/galileo">CloudFlare's Project Galileo</a></li>
+</ul></li>
+<li>Step 4: As soon as you have regained control, review your needs and decide between a secure hosting provider or simply continuing with your DDoS mitigation service.</li>
+</ul>
+<h3 id="when-you-are-suffering-from-a-website-defacement">When you are suffering from a Website Defacement</h3>
+<ul>
+<li>Step 1: Verify that this is a malicious takeover of your website. An unfortunate but legal practice is to buy recently expired domain names to 'take over' the traffic they had for advertising purposes. It is very important to keep payments for your domain name in order.</li>
+<li>Step 2: If your website has been defaced, first regain control of your website login account and reset its password, see the Account Hijacking section for help.</li>
+<li>Step 3: Make a backup of the defaced site that can later be used for investigation of the defacement.</li>
+<li>Step 4: Temporarily turn off your website - use a simple landing page or 'parked' page.</li>
+<li>Step 5: Determine how your site was hacked. Your hosting provider may be able to help. Common problems are older parts of your site with custom scripts/tools running on them, out of date content management systems, and custom programming with security flaws.</li>
+<li>Step 6: Restore your original site from backups. If neither you, nor your hosting company have backups, you may have to re-build your website from scratch! Also note that if your only backups are at your hosting provider, an attacker may be able to delete those when they take control of your site!</li>
+<li>Step 7: Move to a DDoS Mitigtion service or secure hosting provider. Deflect.ca can support you in protecting your site from online attacks. CloudFlare can also block many common attacks. Secure hosting providers such as VirtualRoad/Qurium go to great lengths to detect and prevent such attacks.</li>
+</ul>
+<h2 id="dont-stop-here-important-next-steps">Don't stop here! Important next steps</h2>
+<p><strong>Don’t wait until you have been attacked!</strong> All of the services listed below will work quickly to help you recover during or after an attack, but you can protect yourself now, before any attack happens! This can reduce costs by lowering your bandwidth usage and keeping you online during an attack. Once you’ve been hit, it can take up to three days for the internet to 'find' you at your new, protected address - so in almost every case, it’s much better to <strong>be prepared and get started now</strong>.</p>
+<ol>
+<li><strong>Secure Hosting Providers</strong> require you to move your website completely to their servers - you’re changing hosting providers. Many of them can help you through this. The benefits of this include the hosted solution often providing many other protection features in addition to DDoS mitigation; the downside can be cost (depending on what you currently pay) and control - you need to be able to trust your domain host, as they have a lot of control over your website.
+<ul>
+<li>Pros:
+<ul>
+<li>Provides one central service for most, if not all, your website needs</li>
+<li>Provides protection services for DDoS, hacking and spam attacks</li>
+<li>Often includes many secondary services and consulting, and even limited legal defense in some cases</li>
+<li>Full support teams are often on staff to help</li>
+</ul></li>
+<li>Cons:
+<ul>
+<li>You must host your website with the service</li>
+<li>You must trust the service to manage your site and defend your rights</li>
+<li>These services are often much more expensive (but you don’t have to pay other hosting / DNS services anymore!)</li>
+</ul></li>
+</ul></li>
+<li><strong>DDoS Mitigation services</strong> let you continue hosting your site wherever it is, and just change how others on the internet find and access it - this is generally much easier to set up. These services have servers around the world that, essentially, get out in front of your website and absorb or ignore malicious traffic. They 'mirror' and serve constantly-updated copies of your site. These services are easy to set up and you maintain complete control of your website and hosting setup. One challenge with proxied services is that very complex websites can sometimes experience problems with non-admin user logins and complex interactive/javascript area. Please discuss these with your webmaster and the proxy service as most can be resolved.
+<ul>
+<li>Pros:
+<ul>
+<li>Lower cost (often with a free level)</li>
+<li>Quick and easy to set up</li>
+<li>You don’t have to change your existing website host</li>
+<li>You can change or quit the service at any time</li>
+</ul></li>
+<li>Cons:
+<ul>
+<li>Fewer support options</li>
+<li>Focused primarily on just mitigating DDoS attacks - does not necessarily include help with malware or spammers.</li>
+<li>SSL (encrypted) traffic will be briefly decrypted and re-encrypted by the proxy server to pass it from their proxy to your server.</li>
+</ul></li>
+</ul></li>
+<li>Choose a specific provider - for any service, you must be comfortable with the provider. This relates to trust, but also understanding their business model: Is it fee-for-service? If there’s a free version, does it receive less support than a paid alternative? Is it funded by governments? It is best to cover as much detail up front as possible to avoid surprises down the road.</li>
+</ol>
+<h3 id="for-all-services-ask-yourself-the-following-questions">For all services ask yourself the following questions:</h3>
+<ul>
+<li>How is the company/organization structured and sustained? What types of vetting or reporting are they required to do, if any?</li>
+<li>Consider what country/countries they have a legal presence in and which they would be required to comply with law enforcement and other legal requests</li>
+<li>What logs are created, and for how long are they available?</li>
+<li>Are there restrictions regarding the type of content the service will host/proxy, and could they have an impact on your site?</li>
+<li>Are there restrictions on the countries where they can provide service?</li>
+<li>Do they accept a form of payment you can use? Can you afford their service?</li>
+<li>Secure communications - you should be able to log in securely and communicate with the service provider privately.</li>
+<li>Is there an option for two-factor authentication, to improve the security of administrator access? This or related secure access policies can help reduce the threat of other forms of attacks against your website.</li>
+<li>What type of ongoing support will you have access to? Is there an additional cost for support, and/or will you receive sufficient support if you are using a 'free' tier?</li>
+<li>Can you 'test-drive' your website before you move over via a staging site?</li>
+</ul>
+<h3 id="questions-for-secure-hosting-services">Questions for secure hosting services</h3>
+<ul>
+<li>Do they offer full support in moving your site over to their service?</li>
+<li>Are the services equal to or better than your current host, at least for the tools/services you use? Top things to check are:
+<ul>
+<li>Management dashboards like cPanel</li>
+<li>Email accounts (how many, quotas, access via SMTP, IMAP)</li>
+<li>Databases (how many, types, access)</li>
+<li>Remote access via SFTP/SSH</li>
+<li>Support for the programming language (PHP, Perl, Ruby, cgi-bin access...) or CMS (Drupal, Joomla, Wordpress…) that your site uses</li>
+</ul></li>
+</ul>
+<h3 id="questions-for-ddos-mitigation-services">Questions for DDoS Mitigation services:</h3>
+<ul>
+<li>If you use SSL (also known as HTTPS or secure web traffic), ask how they manage SSL. In some configurations, it may be easiest to share your private SSL key. If you do so, you need to have a high level of trust in the service provider, as they can 'impersonate' your site (indeed, this is what you are asking them to do by providing a proxy!)</li>
+<li>Ask about how administration /editorial logins and pages are managed</li>
+<li>Talk about any interactive parts of your website (users who log in, comment, admin/editorial needs, complex interactive pages/javascript/animations) - different proxy services manage these differently; you will need to test these before switching completely.</li>
+</ul>
+<h3 id="specific-mitigation-services">Specific Mitigation Services</h3>
+<p>Specific services are <a href="https://github.com/OpenInternet/MyWebsiteIsDown/blob/master/MyWebsiteIsDown.md#mitigation-service">listed with extensive notes</a>. Please note that the list provided is not a complete listing of services; there are many more. However, these services all represent good starting points, as they have been used by other members in the independent media / human rights / free speech communities. For immediate coverage, here are options:</p>
+<ul>
+<li>Secure Hosting Services:
+<ul>
+<li><a href="https://www.qurium.org/">Qurium (formerly Virtual Road)</a></li>
+<li><a href="http://www.positive-internet.com/services/vip-hosting">The Positive Internet Company</a></li>
+<li><a href="https://greenhost.net/">Greenhost</a></li>
+</ul></li>
+<li>DDoS Mitigation Services:
+<ul>
+<li><a href="https://deflect.ca/">Deflect.ca</a></li>
+<li><a href="https://projectshield.withgoogle.com/en/">Google's Project Shield</a></li>
+<li><a href="https://www.cloudflare.com/galileo">CloudFlare's Project Galileo</a></li>
+</ul></li>
+</ul>
+<h2 id="take-extra-precaution-against-attackers">Take extra precaution against attackers</h2>
+<p>Even if you have not experienced a Denial of Service attack, this guide offers steps to prepare for one, hopefully preventing any downtime at all. Go straight to the <a href="https://github.com/OpenInternet/MyWebsiteIsDown/blob/master/MyWebsiteIsDown.md#responding-to-a-denial-of-service-attack">Responding to a Denial of Service Attack</a> section to investigate common solutions you can implement now, before being attacked. At the Helpful Resource section you can find guides to keep your site alive.</p>
+<ul>
+<li><strong>Backups</strong>: It’s always good to ensure you have backups (that you store somewhere other than the same place your website is!). Many hosts and website platforms include this as part of their service, but it’s best to also have additional, offline copies.</li>
+<li><strong>Keep up to date</strong>: If you are using a Content Management System (CMS) such as WordPress or Drupal, check to make sure that your website technology is updated to the latest software, especially if there have been security updates. If you are using custom software, consider moving to a CMS that receives regular updates.</li>
+<li><strong>Monitoring</strong>: There are many services that can constantly check on your site and email or text you if it goes down. <a href="http://mashable.com/2010/04/09/free-uptime-monitoring/">This Mashable article</a> lists ten popular ones. Be aware that the email or phone number you use for monitoring will be clearly associated with managing the website.</li>
+</ul>
+<h2 id="investigate">Investigate</h2>
+<p>If you have been the victim of a <strong>'Denial of Service'</strong> or <strong>Defacement attack</strong>, it can be valuable to understand why you've been attacked and why now.</p>
+<p><strong>Why you've been attacked and why now</strong>: Who do you think might be interested in targeting your website or your organization? Have you recently posted something controversial, could this threat be related to your work or does your website receive a lot of traffic and did your domain name expire? Why now? Could a recent change to your website have made you a target for Denial of Service attacks or Defacement attacks? In the section on helpful resources there are links to guides that give you tips and tricks on how to prevent digital emergencies and be proactive in your digital security.</p>
+<h2 id="helpful-resources">Helpful resources:</h2>
+<ul>
+<li><a href="https://github.com/OpenInternet/MyWebsiteIsDown">My Website is Down</a></li>
+<li><a href="https://www.eff.org/keeping-your-site-alive">Keep your site alive</a></li>
+<li><a href="https://securityinabox.org/en/chapter_7_2">Security in a Box</a></li>
+<li><a href="https://ssd.eff.org/risk/threats">Threat modeling, Surveillance Self Defense Guide</a></li>
+<li><a href="https://www.cert.be/files/DDoS-proactive-reactive.pdf">DDoS proactive and reactive measures</a></li>
+</ul>
+</article></div></div></div></body><footer class="site-footer"><div class="wrapper"><h2 class="footer-heading">Digital First Aid Kit</h2><div class="footer-col-wrapper"><div class="footer-col footer-col-1"><ul class="contact-list"><li>Digital First Aid Kit</li><li><a href="mailto:rarenet@rarenet.org">rarenet@rarenet.org</a></li></ul></div><div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/RaReNet"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"></path></svg></span><span class="username">RaReNet</span></a></li></ul></div><div class="footer-col footer-col-3"><p class="text">The Digital First Aid Kit aims to provide preliminary support for people facing the most common types of digital threats. The Kit offers a set of self-diagnostic tools for citizen, human rights defenders, bloggers, activists and journalists fac ing attacks themselves, as well as providing guidelines for digital first responders to assist a person under threat.
+</p></div></div></div></footer><script>document.addEventListener("DOMContentLoaded", function(event) {
+  anchors.options.placement = 'left';
+  anchors.add('h1,h2,h3');
+})
+</script></html>
