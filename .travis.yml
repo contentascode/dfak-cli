@@ -28,10 +28,10 @@ install:
 
 script:
   - mkdir workspace && cd workspace
-  - apprentice init --non-interactive
-  - apprentice config
+  - dfak init --non-interactive
+  - dfak config
   # Build website
-  - apprentice start --clean --no-watch --baseurl /activist-apprentice/@apprentice/preview
+  - dfak start --clean --no-watch --baseurl /dfak-cli/@dfak/preview
 
 deploy:
   - provider: pages
