@@ -35,7 +35,7 @@ script:
 
 deploy:
   - provider: pages
-    local_dir: /home/travis/.content/build
+    local_dir: ../../../.content/build
     skip_cleanup: true
     github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
     on:
@@ -43,7 +43,7 @@ deploy:
       condition: $TRAVIS_OS_NAME = linux
       node: '7'
   - provider: pages
-    local_dir: /home/travis/.content/build
+    local_dir: ../../../.content/build
     skip_cleanup: true
     github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
     on:
