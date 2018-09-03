@@ -1,6 +1,6 @@
 {
   "name": "dfak-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Digital First Aid Kit CLI",
   "bin": {
     "dfak": "../../../lib/node_modules/docsmith/lib/docsmith.js",
