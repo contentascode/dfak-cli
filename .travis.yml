@@ -33,24 +33,6 @@ script:
   # Build website
   - dfak start --clean --no-watch --baseurl /dfak-cli/@dfak/preview
 
-deploy:
-  - provider: pages
-    local_dir: ../../../.content/build
-    skip_cleanup: true
-    github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-    on:
-      branch: master
-      condition: $TRAVIS_OS_NAME = linux
-      node: '7'
-  - provider: pages
-    local_dir: ../../../.content/build
-    skip_cleanup: true
-    github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-    on:
-      tags: true
-      condition: $TRAVIS_OS_NAME = linux
-      node: '7'
-
 branches:
   only:
   - master
