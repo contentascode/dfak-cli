@@ -13,43 +13,42 @@ Command line tool to manage content workflows for the Apprentice project. It use
 
 ## Features
 
-A quick walk through...
+This tool currently enables users to:
 
-[![IMAGE ALT TEXT HERE]()]()
+  - Deploy and navigate a local version of the DFAK content.
+  - Customise DFAK content locally and preview changes.
+  - Contribute back your changes
 
 ## Install
 
-### Prerequisites:
+### Prerequisites
 
-- [node v6 minimum, v8.9 LTS recommended](https://nodejs.org/en/)
+  - Install `nvm` (cf. https://github.com/creationix/nvm#install-script)
 
-  - MacOS note that installation via `brew` is not yet supported.
+    - `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash`
+    - Open a new Terminal window and check if nvm is installed correctly:
+      - `command -v nvm`
 
-- npm v6.4.0
+  - Install `node` v8.11.4 with `nvm`
 
-  - `npm i -g npm`
+    - `nvm install v8.11.4`
+    - `nvm alias default v8.11.4`
+    - Check your version of node with: `node --version`
 
-- docsmith v0.8.0:
+  - Install `npm` v6.4.1
 
-  - `npm i -g docsmith@beta`
+    - `npm i -g npm`
+    - Check your npm version : `npm --version`
 
-- pandoc 1.19
-  - `brew install pandoc`
-  - `apt-get install pandoc`
+  - Install `docsmith` v0.8.2:
 
-### Prerequisites for APK build
+    - `npm i -g docsmith@beta`
 
-The following are only required if you wish to use the `dfak build mobile` command which will generate an APK for your project.
+  - Install `pandoc` 1.19
+    - `brew install pandoc`
+    - `apt-get install pandoc`
 
-- exp v54.0.1:
-
-  - `npm i -g exp`
-
-- docker:
-  - https://docs.docker.com/docker-for-mac/install/
-  - make sure that you set Docker to minimum **8GB** memory (Docker icon > Preferences > Advanced).
-
-### DFAK Command
+### DFAK Command Line Interface Tool (CLI)
 
 You can now install the CLI with:
 
@@ -57,7 +56,7 @@ You can now install the CLI with:
 npm i -g dfak-cli
 ```
 
-## Usage
+### Initialise workspace
 
 ```bash
 mkdir workspace
@@ -65,7 +64,7 @@ cd workspace
 dfak init
 ```
 
-This will prompt you with a few questions about configuration. The defaults should work in the majority of cases.
+## Usage
 
 ```bash
 dfak start
